@@ -1,0 +1,38 @@
+body{
+    display:flex;
+}
+div{
+    margin-bottom:5vh;
+}
+h2{
+    margin:0vh;
+    margin-bottom:.5vh;
+}
+
+img{
+    height:20vh;
+    border:1vh solid white;
+
+}
+
+.resultContainer{
+    height:100vh;
+    width:100%;
+    display:none;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+#result{
+    font-size: 5em;
+}
+
+input[type=radio] {
+    display:none;
+}
+
+.radio-label{
+    margin:3vh;
+    box-sizing: border-box;
+}
