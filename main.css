@@ -3,15 +3,15 @@ body{
     height:100vh;
 }
 div{
-    margin-bottom:5vh;
+    margin-bottom:5%;
 }
 h2{
     margin:0vh;
-    margin-bottom:.5vh;
+    margin-bottom:.5%;
 }
 
 img{
-    height:20vh;
+    height:20%;
     border:1vh solid white;
 
 }
