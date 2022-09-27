@@ -1,29 +1,15 @@
 const radio = document.querySelectorAll('[name="vibe"]');
 const submitButton = document.querySelector('#button');
 const result = document.querySelector('#result');
-//console.log(radioOptions);
-// console.log(radioOptions:checked);
-// for (i of radioOptions){
-//     if (radioOptions[i].checked){
-//         console.log('event checked');
-//     }
-//     i.addEventListener('click',(event)=>{
-        
-//         //console.log(event);
-//         image = event.target;
-//         console.log(i);
-        
-//         //imagestyle.border = '1vh solid red';
-//     })
-// }
 const radioOptions = document.querySelector('#radio');
+
 radioOptions.addEventListener('click',()=>{
     
     for (var i=0; i<radio.length; i++) {
         const forLabel = radio[i].id;
         const label = document.querySelector('[for="'+forLabel+'"]')
         const img = label.querySelector('img');
-        //console.log("this is option: "+i);
+        
             if (radio[i].checked){
                //console.log(img); 
                 img.style.border = '1vh solid black';
